@@ -1241,7 +1241,7 @@ const yValues = [];
         	graphEnd = scouringVel*3
         	y0x0 = 0
             x0x1x1 = scouringVel
-            y1y0y1 = scouringVel
+            y1y0y1 = 2.31 * ((4.52 * totalStraightPipe * Math.pow(scouringVel, 1.852))/(Math.pow(cFactor, 1.852) * Math.pow(pipeID, 4.87))) + +staticHead;
       } else {
         	graphEnd = recommendedGPM5*2
             y0x0 = 0
